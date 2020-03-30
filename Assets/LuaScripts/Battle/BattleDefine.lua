@@ -1,0 +1,8 @@
+
+module("BattleDefine",package.seeall)
+
+ROUND_STEP_START = 1
+ROUND_STEP_FINISH = 2
+ROUND_STEP_GEN_ACTION = 3
+ROUND_STEP_WAIT_ACTION = 4
+ROUND_STEP_ERROR = -1
