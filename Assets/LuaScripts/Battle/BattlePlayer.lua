@@ -10,9 +10,9 @@ end
 
 
 function Init(self)
-
+    self.pos_ = nil
 end
 
 function SendMsg(self, msg)
-    
+
 end
