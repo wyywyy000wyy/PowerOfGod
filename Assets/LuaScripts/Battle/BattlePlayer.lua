@@ -1,7 +1,7 @@
 
-module("BattlePlayer",package.seeall)
+BattlePlayer = {}
 
-function New()
+function BattlePlayer.New()
     local obj = {}
     setmetatable( obj, { __index = BattlePlayer } )
     obj:Init()
@@ -9,10 +9,10 @@ function New()
 end
 
 
-function Init(self)
+function BattlePlayer.Init(self)
     self.pos_ = nil
 end
 
-function SendMsg(self, msg)
+function BattlePlayer.SendMsg(self, msg)
 
 end

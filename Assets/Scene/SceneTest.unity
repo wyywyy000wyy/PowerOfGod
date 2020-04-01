@@ -801,9 +801,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1489226166}
     m_Modifications:
+    - target: {fileID: 100000, guid: 6591f46f201c03142b500b303e2b8a1b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100090, guid: 6591f46f201c03142b500b303e2b8a1b, type: 3}
       propertyPath: m_Name
       value: machao
+      objectReference: {fileID: 0}
+    - target: {fileID: 100138, guid: 6591f46f201c03142b500b303e2b8a1b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400090, guid: 6591f46f201c03142b500b303e2b8a1b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -849,6 +857,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 6591f46f201c03142b500b303e2b8a1b, type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400000, guid: 2269d80994704344db9156b42a16af8a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6591f46f201c03142b500b303e2b8a1b, type: 3}
 --- !u!4 &1814019962 stripped

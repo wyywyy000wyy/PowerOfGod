@@ -1,15 +1,20 @@
 
-module("BattleAction",package.seeall)
+BattleAction = {}
 
-function New()
+function BattleAction.New(ID)
     local obj = {}
     setmetatable( obj, { __index = BattleAction } )
-    obj:Init()
+    obj:Init(ID)
     return obj
 end
 
 
-function Init(self)
-
+function BattleAction.Init(self,ID)
+    self.actor_ = nil
+    self.id_ = ID
 end
 
+
+Action_GameStart = {
+    
+}
