@@ -11,6 +11,7 @@ BattleDefine = {
     RULE_PLAYER_FIRST = 2,
 
     RULE_CARD_COUNT = 3,
+    RULE_CARD_PICK = 4,
 
 
     ACTION_ERROR = -1,
