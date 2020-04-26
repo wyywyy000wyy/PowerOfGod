@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using XLua;
+using UnityEngine.Rendering.Universal;
 
 public class LuaMain : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class LuaMain : MonoBehaviour
     static LuaEnv luaenv_;
     void Awake()
     {
-       
+
     }
 
     static public LuaEnv luaenv
